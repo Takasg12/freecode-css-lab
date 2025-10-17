@@ -1,0 +1,28 @@
+ul.todo-list {
+    list-style: none;
+    padding: 0;
+}
+
+/* Menghilangkan garis bawah di semua link */
+a {
+    text-decoration: none;
+}
+
+/* Warna saat hover */
+.sub-item-link:hover {
+    color: orange;
+}
+
+/* Saat fokus (misalnya di tekan tab */
+.sub-item-link:focus {
+    outline: 2px solid green;
+}
+
+/* Warna setelah dikunjungi */
+.sub-item-link:visited {
+    color: purple;
+}
+
+.sub-item-link:active {
+    color: red;
+}
