@@ -1,0 +1,40 @@
+.blog-post-card {
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+    /* Boleh ubah sesuai kebutuhan */
+    text-align: left;
+}
+
+/* Isi Konten */
+.post-content {
+    padding: 15px;
+}
+
+/* Tombol Read More */
+.read-more {
+    color: white;
+    background-color: #0077cc;
+    margin: 10px 0;
+    padding: 8px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* Efek hover */
+.read-more:hover {
+    background-color: #005fa3;
+}
+
+/* Gambar di atas kartu */
+.post-img {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+
+.post-title,
+.post-excerpt {
+    color: #333;
+    margin: 10px 0;
+}
