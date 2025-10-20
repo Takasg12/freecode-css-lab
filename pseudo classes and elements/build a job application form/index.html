@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Job Application Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <form>
+                <!-- Nama lengkap -->
+                <label for="name">Full Name:</label>
+                <input type="text" name="name" id="name" required>
+
+                <!-- Email -->
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" required>
+
+                <!-- Pilih Posisi -->
+                <label for="position">Position :</label>
+                <select name="position" id="position" required>
+                    <option value>--Select Position--</option>
+                    <option value="developer">Developer</option>
+                    <option value="designer">Designer</option>
+                    <option value="manager">Manager</option>
+                </select>
+
+                <!-- Radio Group -->
+                <fieldset class="radio-group">
+                    <legend>Availability</legend>
+
+                    <input type="radio" name="availability" id="full-time"
+                        value="full-time">
+                    <label for="full-time">Full Time</label>
+
+                    <input type="radio" name="availability" id="part-time"
+                        value="part-time">
+                    <label for="part-time">Part Time</label>
+                </fieldset>
+
+                <!-- Pesan -->
+                <label for="message">Message</label>
+                <textarea name="message" id="message" required></textarea>
+
+                <!-- Tombol submit -->
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>

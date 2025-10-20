@@ -1,0 +1,44 @@
+/* Saat field difokuskan */
+input:focus,
+textarea:focus {
+    border-color: blue;
+    outline: none;
+}
+
+
+/* Saat input invalid (tidak benar)*/
+input:invalid,
+select:invalid,
+textarea:invalid {
+    border-color: red;
+}
+
+/* Saat input valid (benar) */
+input:valid,
+select:valid,
+textarea:valid {
+    border-color: green;
+}
+
+/* Button Hover*/
+button:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+/* Radio button saat dipilih */
+.radio-group input[type="radio"]:checked {
+    border-color: lightblue;
+    background-color: blue;
+    box-shadow: 0 0 5px blue;
+}
+
+/* Label radio saat dipilih */
+.radio-group input[type="radio"]:checked+label {
+    color: blue;
+}
+
+/* Input pertama tampilan berbeda */
+input:first-of-type {
+    border-radius: 10px;
+}
