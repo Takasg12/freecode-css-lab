@@ -1,0 +1,36 @@
+/* Latar Belakang Seluruh Halaman */
+body {
+    background-color: #f4f4f4;
+}
+
+/* Kotak Warna */
+.color-box {
+    width: 100px;
+    height: 100px;
+}
+
+/* Warna dengan berbagai format */
+.color1 {
+    background-color: #ff5733;
+    /* HEX */
+}
+
+.color2 {
+    background-color: rgb(52, 152, 219);
+    /* RGB */
+}
+
+.color3 {
+    background-color: green;
+    /* Predefined color */
+}
+
+.color4 {
+    background-color: hsl(50, 100%, 50%);
+    /* HSL */
+}
+
+.color5 {
+    background-color: rgba(255, 78, 125, 0.5);
+    /* RGBA */
+}
