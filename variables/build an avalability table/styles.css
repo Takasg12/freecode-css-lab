@@ -1,0 +1,76 @@
+:root {
+    --color0: #f2f2f2;
+    --color1: #c6e2f5;
+    --color2: #98d1f0;
+    --color3: #6bbce3;
+    --color4: #3ea7d6;
+    --color5: #1a91c4;
+
+    --solid-border: 2px solid black;
+    --dashed-border: 2px dashed gray;
+}
+
+/* table style minimal */
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+/* background colors */
+.available-0 {
+    background-color: var(--color0);
+    border-bottom: var(--solid-border);
+}
+
+.available-1 {
+    background-color: var(--color1);
+    border-bottom: var(--solid-border);
+}
+
+.available-2 {
+    background-color: var(--color2);
+}
+
+.available-3 {
+    background-color: var(--color3);
+}
+
+.available-4 {
+    background-color: var(--color4);
+}
+
+.available-5 {
+    background-color: var(--color5);
+}
+
+/* border style per row */
+.sharp td {
+    border-bottom: var(--solid-border);
+}
+
+.half td {
+    border-bottom: var(--dashed-border);
+}
+
+/* legend */
+#legend {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+#legend-gradient {
+    height: 20px;
+    width: 200px;
+    background-image: linear-gradient(90deg,
+            var(--color0) 0% 20%,
+            var(--color1) 20% 40%,
+            var(--color2) 40% 60%,
+            var(--color3) 60% 80%,
+            var(--color4) 75% 90%,
+            var(--color5) 90% 100%);
+}
