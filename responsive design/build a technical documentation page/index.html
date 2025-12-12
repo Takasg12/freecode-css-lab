@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JavaScript Documentation</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav id="navbar">
+            <header>
+                <h1> JS Documentation</h1>
+            </header>
+
+            <!-- Navigation Links -->
+            <a href="#Introduction" class="nav-link">Introduction</a>
+            <a href="#What_you_should_already_know" class="nav-link">What you
+                should already know</a>
+            <a href="#JavaScript_and_Java" class="nav-link">JavaScript and
+                Java</a>
+            <a href="#Hello_world" class="nav-link">Hello World</a>
+            <a href="#Variables" class="nav-link">Variables</a>
+            <a href="#Data_types" class="nav-link">Data Types</a>
+        </nav>
+
+        <!-- Main Content -->
+        <main id="main-doc">
+            <!-- Section 1: Introduction -->
+            <section class="main-section" id="Introduction">
+                <header>
+                    <h2>Introduction</h2>
+                </header>
+                <p>JavaScript is a cross-platfrom, object-oriented scripting
+                    language.</p>
+                <p>It is a small and lightweight language</p>
+                <p>Inside a host environment, JavaScript can be connected to the
+                    objects of its environment to provide programmatic control
+                    over them.</p>
+                <code>console.log("Hello World")</code>
+                <p>Client-side JavaScript extends the core language by supplying
+                    objects to control a browser and its Document Object Model
+                    (DOM).</p>
+                <p>Server-side JavaScript extends the core language by supplying
+                    objects relevant to running JavaScript on a server.</p>
+            </section>
+
+            <!-- Section 2: Prerequisites -->
+            <section class="main-section" id="What_you_should_already_know">
+                <header>
+                    <h2>What you should already know</h2>
+                </header>
+                <p>This guide assumes you have the following basic
+                    background:</p>
+                <ul>
+                    <li>A general understanding of the Internet and the World
+                        Wide Web (WWW).</li>
+                    <li>Good working knowledge of HyperText Markup Language
+                        (HTML).</li>
+                    <li>Some programming experience.</li>
+                </ul>
+                <p>If you are new to programming, you might want to check out
+                    some introductory tutorials first.</p>
+                <code>// This is a comment in JavaScript</code>
+            </section>
+
+            <!-- Section 3: JavaScript vs Java -->
+            <section class="main-section" id="JavaScript_and_Java">
+                <header>
+                    <h2>JavaScript and Java</h2>
+                </header>
+                <p>JavaScript and Java are similar in some ways but
+                    fundamentally different in others.</p>
+                <p>The JavaScript language resembles Java but does not have
+                    Java's static typing and strong type checking.</p>
+                <p>JavaScript follows most Java expression syntax, naming
+                    conventions and basic control-flow constructs.</p>
+                <code>let x = 5; // JavaScript variable declaration</code>
+                <ul>
+                    <li>JavaScript is a scripting language</li>
+                    <li>Java is a compiled language</li>
+                </ul>
+                <p>Where to find more information about Java vs JavaScript
+                    differences.</p>
+            </section>
+
+            <!-- Sectin 4: Hello World -->
+            <section class="main-section" id="Hello_world">
+                <header>
+                    <h2>Hello World</h2>
+                </header>
+                <p>To get started with writing JavaScript, open the console and
+                    write your first "Hello world" JavaScript code:</p>
+                <code>function greetMe() { alert("Hello World!")}</code>
+                <p>Select the code in the pad and hit Ctrl+R to watch it unfold
+                    in your browser!</p>
+                <p>This is a simple example of a JavaScript function.</p>
+                <code>greetMe(); //Call the function</code>
+                <p>Functions are fundamental building blocks in JavaScript.</p>
+            </section>
+
+            <!-- Section 5: Variables -->
+            <section class="main-section" id="Variables">
+                <header>
+                    <h2>Variables</h2>
+                </header>
+                <p>You use variables as sybolic names for values in your
+                    application</p>
+                <p>JavaScript has three ways to declare variables
+                    <ul>
+                        <li><code>var</code> - Function scope</li>
+                        <li><code>let</code> - Block scope</li>
+                        <li><code>const</code> - Block scope, constant</li>
+                    </ul>
+                    <p>Example of variable declarations:</p>
+                    <code>var x = 42; // Global or function scoped</code>
+                    <code>let y = 13; // Block scoped</code>
+                    <code>const PI = 3.14; // Constant, cannot be
+                        reassigned</code>
+                    <p>Always use meaningful variable names to make your code
+                        more readable.</p>
+                </p>
+            </section>
+
+            <!-- Section 6: Data Types -->
+            <section class="main-section" id="Data_types">
+                <header>
+                    <h2>Data types</h2>
+                </header>
+                <p>JavaScript has several data types:</p>
+                <ul>
+                    <li>String - Text data</li>
+                    <li>Number - Numeric data</li>
+                    <li>Boolean - true/false</li>
+                    <li>Null - Intentional absence of value</li>
+                    <li>Undefined - Variable declared but not assigned</li>
+                    <li>Object - Complex data structures</li>
+                </ul>
+                <p>Examples of data types:</p>
+                <code>let name = "John"; // String</code>
+                <code>let age = 30; // Number</code>
+                <code>let isStudent = true; // Boolean</code>
+                <p>Understanding data types is crucial for writing effective
+                    JavaScript code.</p>
+            </section>
+        </main>
+    </body>
+</html>
