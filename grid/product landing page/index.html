@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TechGadget Pro - Premium Tech Products</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </head>
+    <body>
+        <!-- Header with navbar -->
+        <header id="header">
+            <div class="header-container">
+                <!-- Logo -->
+                <img
+                    src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+                    alt="TechGadget Pro Logo" id="header-img">
+
+                <!-- Navigation -->
+                <nav id="nav-bar">
+                    <a href="#features" class="nav-link">
+                        <i class="fas fa-star"></i> Features
+                    </a>
+                    <a href="#how-it-works" class="nav-link">
+                        <i class="fas fa-play-circle"></i> How It Works
+                    </a>
+                    <a href="#pricing" class="nav-link">
+                        <i class="fas fa-tags"></i> Pricing
+                    </a>
+                    <a href="#testimonials" class="nav-link">
+                        <i class="fas fa-comments"></i> Testimonials
+                    </a>
+                </nav>
+            </div>
+        </header>
+
+        <main class="container">
+            <!-- Hero Section -->
+            <section class="hero">
+                <h1>Experience the Future of Technology</h1>
+                <p>Premium gadget that revolutionize your daily life</p>
+
+                <!-- Email Form -->
+                <form action="https://www.freecodecamp.com/email-submit"
+                    id="form" method="post">
+                    <input type="email" name="email" id="email"
+                        placeholder="Enter your email address" required>
+                    <input type="submit" id="submit" value="Get Started">
+                </form>
+            </section>
+
+            <!-- Features Section -->
+            <section id="features" class="section">
+                <h2>Premium Features</h2>
+                <div class="features-grid">
+                    <div class="feature">
+                        <i class="fas fa-bolt fa-3x"></i>
+                        <h3>Fast Performance</h3>
+                        <p>Lightning-fast processing speeds that handle any task
+                            with ease.</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-battery-full fa-3x"></i>
+                        <h3>Long Battery Life</h3>
+                        <p>All-day battery that keeps you productive without
+                            constant charging.</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-shield-alt fa-3x"></i>
+                        <h3>Premium Build</h3>
+                        <p>Durable materials and water-resistant design for
+                            peace of mind.</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-sync-alt fa-3x"></i>
+                        <h3>Regular Updates</h3>
+                        <p>Continuous software improvements and new
+                            features.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- How It Works Section -->
+            <section id="how-it-works" class="section">
+                <h2>See In Action</h2>
+                <div class="video-container">
+                    <iframe id="video"
+                        src="https://www.youtube.com/embed/kvyJPvJKTBI"
+                        width="560" height="315" title="Product Demo Video"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </section>
+
+            <!-- Pricing Section -->
+            <section class="section" id="pricing">
+                <h2>Choose Your Plan</h2>
+                <div class="pricing-grid">
+                    <div class="pricing-card">
+                        <h3>Basic</h3>
+                        <div class="price">$299</div>
+                        <ul>
+                            <li>Standard Performance</li>
+                            <li>12 Month Warranty</li>
+                            <li>Basic Support</li>
+                            <li>Limited Features</li>
+                        </ul>
+                        <button class="btn">Select Plan</button>
+                    </div>
+                    <div class="pricing-card popular">
+                        <div class="popular-badge">MOST POPULAR</div>
+                        <h3>Pro</h3>
+                        <div class="price">$499</div>
+                        <ul>
+                            <li>Enhanced Performance</li>
+                            <li>24 Month Warranty</li>
+                            <li>Priority Support</li>
+                            <li>All Features</li>
+                            <li>Free Accessories</li>
+                        </ul>
+                        <button class="btn">Select Plan</button>
+                    </div>
+                    <div class="pricing-card">
+                        <h3>Ultimate</h3>
+                        <div class="price">$799</div>
+                        <ul>
+                            <li>Maximum Performance</li>
+                            <li>Lifetime Warranty</li>
+                            <li>24/7 Premium Support</li>
+                            <li>All Features + Extras</li>
+                            <li>Free Installation</li>
+                            <li>Annual Upgrades</li>
+                        </ul>
+                        <button class="btn">Select Plan</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Testimonials Section -->
+            <section id="testimonials" class="section">
+                <h2>What Our Customers Say</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial">
+                        <i class="fas fa-quote-left fa-2x"></i>
+                        <p>"This product changed how I work! The performance is incredible."</p>
+                        <div class="author">- Alex Johnson</div>
+                    </div>
+                    <div class="testimonial">
+                        <i class="fas fa-quote-left fa-2x"></i>
+                        <p>"Best tech purchase I've made. The battery life alone is worth it!"</p>
+                        <div class="author">- Sarah Miller</div>
+                    </div>
+                    <div class="testimonial">
+                        <i class="fas fa-quote-left fa-2x"></i>
+                        <p>"The customer support team is amazing. Highly recommended!"</p>
+                        <div class="author">- Michael Chen</div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Contact Us</a>
+                </div>
+                <p>&copy; 2025 TechGadget Pro. All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
+</html>
